@@ -1,0 +1,29 @@
+<div class="result-container">
+  <div class="result-box">
+    <h1>Quiz Results</h1>
+
+    <p class="summary">⏱️ Time Taken: {{ formatTime(result?.totalTime) }}</p>
+    <p class="summary">✅ Correct Answers: {{ result?.correctAnswers }} / {{ questions?.length }}</p>
+    <p class="summary">
+      🎯 Status:
+      <span [ngClass]="result?.passStatus ? 'status-pass' : 'status-fail'">
+        {{ result?.passStatus ? 'Passed' : 'Failed' }}
+      </span>
+    </p>
+
+    <div class="review-section">
+      <h2>Review Answers</h2>
+      <div *ngFor="let answer of result?.answers; let i = index" class="review-item">
+        <p><strong>Q{{ questions[i].id }}: {{ questions[i].text }}</strong></p>
+        <p>Your Answer: {{ questions[i].options[answer.selectedAnswer] }}</p>
+        <p *ngIf="answer.selectedAnswer !== questions[i].correctAnswer" class="correct-answer">
+          Correct Answer: {{ questions[i].options[questions[i].correctAnswer] }}
+        </p>
+      </div>
+    </div>
+
+    <div class="result-actions">
+      <button (click)="exit()">Play Again</button>
+    </div>
+  </div>
+</div>

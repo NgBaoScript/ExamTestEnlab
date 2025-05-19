@@ -1,0 +1,126 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": "What is Angular?",
+      "options": [
+        "Framework",
+        "Library",
+        "Database",
+        "Language"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Angular is a framework for building SPAs."
+    },
+    {
+      "id": 2,
+      "text": "What is TypeScript?",
+      "options": [
+        "Superset of JavaScript",
+        "CSS Framework",
+        "Database",
+        "API"
+      ],
+      "correctAnswer": 0,
+      "explanation": "TypeScript is a superset of JavaScript."
+    }
+  ],
+  "quizResults": [
+    {
+      "id": 1,
+      "totalTime": 120,
+      "correctAnswers": 1,
+      "passStatus": false,
+      "answers": [
+        {
+          "questionId": 1,
+          "selectedAnswer": 0
+        },
+        {
+          "questionId": 2,
+          "selectedAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": 1747477758048,
+      "totalTime": 16,
+      "correctAnswers": 1,
+      "passStatus": false,
+      "answers": [
+        {
+          "questionId": 1,
+          "selectedAnswer": 0
+        },
+        {
+          "questionId": 2,
+          "selectedAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": 1747477934249,
+      "totalTime": 6,
+      "correctAnswers": 1,
+      "passStatus": false,
+      "answers": [
+        {
+          "questionId": 1,
+          "selectedAnswer": 0
+        },
+        {
+          "questionId": 2,
+          "selectedAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": 1747478541862,
+      "totalTime": 7,
+      "correctAnswers": 1,
+      "passStatus": false,
+      "answers": [
+        {
+          "questionId": 1,
+          "selectedAnswer": 0
+        },
+        {
+          "questionId": 2,
+          "selectedAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": 1747478643815,
+      "totalTime": 7,
+      "correctAnswers": 1,
+      "passStatus": false,
+      "answers": [
+        {
+          "questionId": 1,
+          "selectedAnswer": 0
+        },
+        {
+          "questionId": 2,
+          "selectedAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": 1747479191324,
+      "totalTime": 57,
+      "correctAnswers": 2,
+      "passStatus": true,
+      "answers": [
+        {
+          "questionId": 1,
+          "selectedAnswer": 0
+        },
+        {
+          "questionId": 2,
+          "selectedAnswer": 0
+        }
+      ]
+    }
+  ]
+}

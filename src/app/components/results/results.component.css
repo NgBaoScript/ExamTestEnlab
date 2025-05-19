@@ -1,0 +1,76 @@
+.result-container {
+    background-color: #1a1c3a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    min-height: 100vh;
+}
+
+.result-box {
+    background-color: #2b2d55;
+    padding: 30px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+h1,
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.summary {
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.status-pass {
+    color: #4caf50;
+    font-weight: bold;
+}
+
+.status-fail {
+    color: #f44336;
+    font-weight: bold;
+}
+
+.review-section {
+    margin-top: 30px;
+}
+
+.review-item {
+    background-color: #1f2046;
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.correct-answer {
+    color: #ffd54f;
+}
+
+.result-actions {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.result-actions button {
+    background-color: #e53935;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.result-actions button:hover {
+    background-color: #c62828;
+}
